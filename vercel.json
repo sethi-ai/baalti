@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/move-to-os.html", "dest": "/move-to-os.html" },
+    { "src": "/(.*)", "status": 307, "headers": { "Location": "https://os.promptsethi.com/baalti/" } }
+  ]
+}
